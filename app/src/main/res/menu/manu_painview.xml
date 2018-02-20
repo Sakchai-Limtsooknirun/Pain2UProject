@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Menu1"
+        android:title="Clear" />
+    <item
+        android:id="@+id/Menu4"
+        android:title="Reset Option" />
+    <item
+        android:id="@+id/Menu8"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/PenStyle"
+        android:icon="@drawable/pen"
+        android:title="Pen Style" />
+    <item
+        android:id="@+id/Menu2"
+        android:icon="@drawable/vignette"
+        android:title="Background Color"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Menu6"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Undo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Save"
+        android:title="Save" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/Menu5"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Back" />
+    <item
+        android:id="@+id/rubber"
+        android:icon="@android:drawable/editbox_background_normal"
+        android:title="Rubber"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Menu7"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Pen"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Menu3"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Option"
+        app:showAsAction="always">
+        <menu />
+    </item>
+</menu>
